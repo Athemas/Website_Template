@@ -40,7 +40,7 @@ html,body { height: 100%; font-family: Inter, system-ui, -apple-system, "Segoe U
   font-size: 0.95rem;
 }
 
-#intro {
+.intro {
     position: relative !important;
 }
 
