@@ -25,9 +25,7 @@ html,body { height: 100%; font-family: Inter, system-ui, -apple-system, "Segoe U
   z-index: -1;     /* Behind all content */
 }
 
-.intro-center { text-align: center; user-select: none;
-              position: fixed;
-              }
+.intro-center { text-align: center; user-select: none;}
 .intro-title {
   font-size: clamp(2.6rem, 6vw, 5.2rem);
   letter-spacing: 0.02em;
