@@ -40,6 +40,10 @@ html,body { height: 100%; font-family: Inter, system-ui, -apple-system, "Segoe U
   font-size: 0.95rem;
 }
 
+#intro {
+    position: relative !important;
+}
+
 /* Main content starts after the 100vh intro */
 .main-content {
   transform: translateY(0);
