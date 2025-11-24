@@ -6,7 +6,7 @@ html,body { height: 100%; font-family: Inter, system-ui, -apple-system, "Segoe U
 .intro-screen {
   position: fixed;
   inset: 0; /* top:0;left:0;right:0;bottom:0; */
-  background: #000;
+  background: transparent;
   z-index: 1000;
   display: flex;
   align-items: center;
@@ -14,6 +14,18 @@ html,body { height: 100%; font-family: Inter, system-ui, -apple-system, "Segoe U
   transition: opacity 400ms ease, transform 400ms ease;
   will-change: opacity;
 }
+
+.pixel-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  image-rendering: pixelated;
+  z-index: -1;     /* Behind all content */
+}
+
 
 .intro-center { text-align: center; user-select: none; }
 .intro-title {
