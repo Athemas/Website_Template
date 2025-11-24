@@ -37,11 +37,6 @@ html,body { height: 100%; font-family: Inter, system-ui, -apple-system, "Segoe U
   font-size: 0.95rem;
 }
 
-#intro, .banner {
-    position: relative !important;
-    z-index: 1;
-}
-
 /* Main content starts after the 100vh intro */
 .main-content {
   transform: translateY(0);
