@@ -4,7 +4,6 @@ html,body { height: 100%; font-family: Inter, system-ui, -apple-system, "Segoe U
 
 /* Intro (black fullscreen) */
 .intro-screen {
-  
   inset: 0; /* top:0;left:0;right:0;bottom:0; */
   background: transparent;
   z-index: 1000;
@@ -16,7 +15,6 @@ html,body { height: 100%; font-family: Inter, system-ui, -apple-system, "Segoe U
 }
 
 .pixel-bg {
-  
   top: 0;
   left: 0;
   width: 100vw;
@@ -25,7 +23,6 @@ html,body { height: 100%; font-family: Inter, system-ui, -apple-system, "Segoe U
   image-rendering: pixelated;
   z-index: -1;     /* Behind all content */
 }
-
 
 .intro-center { text-align: center; user-select: none; }
 .intro-title {
